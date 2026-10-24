@@ -48,14 +48,14 @@ Servo servoRightArm;
 // WIFI
 //======================================================
 
-const char* ssid = "RAMOS";
-const char* password = "012027AENJ";
+const char* ssid = "";
+const char* password = "";
 
 //======================================================
 // MCP
 //======================================================
 
-const char* mcpEndpoint = "wss://api.xiaozhi.me/mcp/?token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjk3OTAzNiwiYWdlbnRJZCI6MjE1Nzg0MywiZW5kcG9pbnRJZCI6ImFnZW50XzIxNTc4NDMiLCJwdXJwb3NlIjoibWNwLWVuZHBvaW50IiwiaWF0IjoxNzg0ODQyNzQ4LCJleHAiOjE4MTY0MDAzNDh9.xxiIArsnsBTpaUbbVn92RxcgZqsbhuS0VBOaqKqNMzekeWQQ2pZW-wuP4GPIi_S20gKZOp5Rh013_AC2eN623g";
+const char* mcpEndpoint = "";
 
 WebSocketMCP mcpClient;
 
